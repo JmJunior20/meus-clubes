@@ -3,6 +3,10 @@
     font-size: 12px;
   }
 
+  main {
+    padding-top: 20px;
+  }
+
   .clubes {
     flex-direction: column;
     padding: 30px 0;
@@ -37,10 +41,12 @@
     gap: 8px;
     flex-wrap: wrap;
     justify-content: space-around;
+    font-size: 10px;
+    justify-content: space-between;
   }
 
   .listagem .clube {
-    width: 140px;
+    width: 145px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     margin-bottom: 0;
