@@ -23,7 +23,8 @@
 }
 
 .listagem .clube img {
-  width: 20%;
+    width: 20%;
+    border-radius: 50%;
 }
 
 .listagem .clube.ativo {
