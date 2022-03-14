@@ -9,13 +9,14 @@
   }
 
   .cartao-clube {
-    max-width: 350px;
+    max-width: 300px;
   }
 
-  .cartao-clube .cartao-escudo {
+  .cartao-clube .cartao-escudo img {
+    display: flex;
+    justify-content: center;
     width: 200px;
     height: 200px;
-    align-items: center;
   }
 
   .cartao-clube .cartao-informacao {
@@ -28,7 +29,7 @@
   }
 
   .listagem {
-    max-width: 350px;
+    max-width: 300px;
   }
 
   .listagem ul {
@@ -39,7 +40,7 @@
   }
 
   .listagem .clube {
-    width: 160px;
+    width: 140px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     margin-bottom: 0;
