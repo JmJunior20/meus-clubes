@@ -1,0 +1,31 @@
+.listagem {
+  max-width: 200px;
+}
+
+.listagem .clube {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #6b727a;
+  color: #ffffff;
+  padding: 0 5px;
+  cursor: pointer;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  min-height: 70px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: 0.15s ease-in-out;
+}
+
+.listagem .clube:hover {
+  transform: scale(1.05);
+}
+
+.listagem .clube img {
+  width: 20%;
+}
+
+.listagem .clube.ativo {
+  background-color: #000000;
+}

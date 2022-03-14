@@ -1,0 +1,73 @@
+.cartao-clube {
+  display: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+
+.cartao-clube .cartao-topo {
+  padding: 30px 40px 0;
+}
+
+.cartao-clube .nome {
+  margin-bottom: 5px;
+}
+
+.cartao-clube .detalhes {
+  color: #ffffff;
+}
+
+.cartao-clube img {
+  max-height: 100%;
+  width: 300px;
+  height: 300px;
+}
+
+.cartao-clube .cartao-informacao {
+  background-color: #ffffff;
+  padding: 80px 30px 50px;
+  margin-top: -70px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.cartao-clube .cartao-informacao h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #6b727a;
+  text-align: center;
+}
+
+.cartao-clube .cartao-informacao .informacoes {
+  padding: 0 10px;
+}
+
+.cartao-clube .cartao-informacao .informacoes ul li {
+  padding: 0 0 5px;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.cartao-clube .cartao-informacao .informacoes ul li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.cartao-clube.aberto {
+  display: block;
+}
+
+.tipo-azul {
+  background-color: #0000ff;
+}
+
+.tipo-rosa {
+  background-color: #be03be;
+}
+
+.tipo-verde {
+  background-color: #008000;
+}
+
+.tipo-amarelo {
+  background-color: #ffff00;
+}
